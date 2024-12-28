@@ -29,7 +29,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("https://localhost:5173") // Frontend origin
+        policy.WithOrigins("https://thankful-plant-0caf1081e.4.azurestaticapps.net") // Frontend origin
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
